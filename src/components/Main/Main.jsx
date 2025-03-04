@@ -20,6 +20,11 @@ const Main = () => {
             name: "Pullman",
             price: 700000,
         },
+        { title: "Дубай",
+            img: "https://avatars.mds.yandex.net/i?id=92dd7032e8950e02d2d00206e635d6ca_l-4447866-images-thumbs&n=13",
+            name: "OZ",
+            price: 350000,
+        },
     ]
 
     let turItem = turbd.map ( (i) => <Cart item={i}/>)
