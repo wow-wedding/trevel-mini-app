@@ -16,8 +16,9 @@ const Cart = (props) => {
                     <p>{props.item.name}</p>
                 </div>
                 <div>
-                    <h3>{props.item.price}</h3>
+                    <h3>{props.item.price} руб.</h3>
                 </div>
+                <button className={style.button}>Купить</button>
             </div>
         </div>
     )
