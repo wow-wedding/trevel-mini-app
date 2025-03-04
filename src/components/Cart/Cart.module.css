@@ -1,0 +1,9 @@
+.cartitem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartimg img {
+    width: 300px;
+    height: 300px;
+}

@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './App.css';
 import { useTelegram } from './components/hooks/useTelegram';
 import Header from './components/Header/Header';
+import Main from "./components/Main/Main";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Header />
       <button onClick={onToggleButton}>toggle</button>
+      <Main />
     </div>
   );
 }
