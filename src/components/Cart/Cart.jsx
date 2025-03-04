@@ -5,7 +5,7 @@ const Cart = (props) => {
 
     return (
         <div>
-            <div>
+            <div className={style.cartbox}>
                 <div>
                 <h3>{props.item.title}</h3>
                 </div>
